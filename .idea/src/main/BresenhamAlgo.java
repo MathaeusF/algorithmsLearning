@@ -18,6 +18,7 @@ public class BresenhamAlgo {
         this.yEnd = yEnd;
         this.deltaX = deltaX(this.xStart, this.xEnd);
         this.deltaY = deltaY(this.yStart, this.yEnd);
+        startAlgo();
     }
 
     public List<int[]> startAlgo() {
