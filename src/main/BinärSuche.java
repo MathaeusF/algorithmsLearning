@@ -34,6 +34,7 @@ public class BinärSuche {
                 low = mid + 1;
 
             }
+        return -1;
         }
     }
-}
+
